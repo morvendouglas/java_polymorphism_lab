@@ -16,7 +16,6 @@ public class DebitCard extends BankCard implements IScan {
         return this.accountNumber;
     }
 
-
     public String scan() {
         return "Payment Complete";
     }
