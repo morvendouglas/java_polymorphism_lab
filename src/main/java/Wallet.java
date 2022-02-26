@@ -1,14 +1,13 @@
 import java.util.ArrayList;
 
 public class Wallet {
+    
     private String name;
     private ArrayList<IScan> scans;
-
 
     public Wallet(String name) {
         this.name = name;
         this.scans = new ArrayList<>();
-
     }
 
     public String getName() {
